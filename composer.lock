@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4b14c3eb139c72cec2515e532b4aee3",
+    "content-hash": "459806abc50ca56c9b2eeea6bb138c5c",
     "packages": [
         {
             "name": "brick/math",
@@ -139,6 +139,73 @@
                 }
             ],
             "time": "2026-09-06T14:11:38+00:00"
+        },
+        {
+            "name": "colorlibhq/adminlte-laravel",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/adminlte-laravel",
+                "reference": "9b95ac923579aa7b1993a0943644d89439eebf7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/adminlte-laravel/zipball/9b95ac923579aa7b1993a0943644d89439eebf7f",
+                "reference": "9b95ac923579aa7b1993a0943644d89439eebf7f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^13.0",
+                "illuminate/view": "^13.0",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.10",
+                "laravel/pint": "^1.30",
+                "orchestra/testbench": "^11.2",
+                "phpunit/phpunit": "^12.4 || ^13.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ColorlibHQ\\AdminLte\\AdminLteServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ColorlibHQ\\AdminLte\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colorlib",
+                    "homepage": "https://colorlib.com"
+                }
+            ],
+            "description": "Official AdminLTE 4 integration for Laravel — Bootstrap 5.3, vanilla JS, Vite-ready.",
+            "homepage": "https://adminlte.io",
+            "keywords": [
+                "AdminLTE",
+                "admin",
+                "blade",
+                "bootstrap",
+                "bootstrap5",
+                "dashboard",
+                "laravel",
+                "template",
+                "vite"
+            ],
+            "support": {
+                "issues": "https://github.com/ColorlibHQ/adminlte-laravel/issues",
+                "source": "https://github.com/ColorlibHQ/adminlte-laravel"
+            },
+            "time": "2026-09-30T22:07:42+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1347,6 +1414,69 @@
                 "source": "https://github.com/laravel/prompts/tree/v0.3.26"
             },
             "time": "2026-10-09T14:45:13+00:00"
+        },
+        {
+            "name": "laravel/sanctum",
+            "version": "v4.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sanctum.git",
+                "reference": "fee27a573d1a013af3721d86153a65e0b11927e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/fee27a573d1a013af3721d86153a65e0b11927e6",
+                "reference": "fee27a573d1a013af3721d86153a65e0b11927e6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/console": "^11.0|^12.0|^13.0",
+                "illuminate/contracts": "^11.0|^12.0|^13.0",
+                "illuminate/database": "^11.0|^12.0|^13.0",
+                "illuminate/support": "^11.0|^12.0|^13.0",
+                "php": "^8.2",
+                "symfony/console": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.6",
+                "orchestra/testbench": "^9.15|^10.8|^11.0",
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Sanctum\\SanctumServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Sanctum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+            "keywords": [
+                "auth",
+                "laravel",
+                "sanctum"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/sanctum/issues",
+                "source": "https://github.com/laravel/sanctum"
+            },
+            "time": "2026-06-23T18:26:55+00:00"
         },
         {
             "name": "laravel/serializable-closure",
