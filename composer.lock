@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "459806abc50ca56c9b2eeea6bb138c5c",
+    "content-hash": "df3de893903f7b7b3fb30d5fe5994efc",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v4.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+                "reference": "e13df78a4d0c287e5fa57308e293f63e44e9dd0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/e13df78a4d0c287e5fa57308e293f63e44e9dd0f",
+                "reference": "e13df78a4d0c287e5fa57308e293f63e44e9dd0f",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colorlib"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
+            "homepage": "https://adminlte.io/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/ColorlibHQ/AdminLTE/issues",
+                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v4.10.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/daniel007in",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/danny007in",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-10-08T06:14:22+00:00"
+        },
         {
             "name": "brick/math",
             "version": "1.0.0",
@@ -139,73 +192,6 @@
                 }
             ],
             "time": "2026-09-06T14:11:38+00:00"
-        },
-        {
-            "name": "colorlibhq/adminlte-laravel",
-            "version": "v1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ColorlibHQ/adminlte-laravel",
-                "reference": "9b95ac923579aa7b1993a0943644d89439eebf7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ColorlibHQ/adminlte-laravel/zipball/9b95ac923579aa7b1993a0943644d89439eebf7f",
-                "reference": "9b95ac923579aa7b1993a0943644d89439eebf7f",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^13.0",
-                "illuminate/view": "^13.0",
-                "php": "^8.3"
-            },
-            "require-dev": {
-                "larastan/larastan": "^3.10",
-                "laravel/pint": "^1.30",
-                "orchestra/testbench": "^11.2",
-                "phpunit/phpunit": "^12.4 || ^13.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "ColorlibHQ\\AdminLte\\AdminLteServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ColorlibHQ\\AdminLte\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Colorlib",
-                    "homepage": "https://colorlib.com"
-                }
-            ],
-            "description": "Official AdminLTE 4 integration for Laravel — Bootstrap 5.3, vanilla JS, Vite-ready.",
-            "homepage": "https://adminlte.io",
-            "keywords": [
-                "AdminLTE",
-                "admin",
-                "blade",
-                "bootstrap",
-                "bootstrap5",
-                "dashboard",
-                "laravel",
-                "template",
-                "vite"
-            ],
-            "support": {
-                "issues": "https://github.com/ColorlibHQ/adminlte-laravel/issues",
-                "source": "https://github.com/ColorlibHQ/adminlte-laravel"
-            },
-            "time": "2026-09-30T22:07:42+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -8308,16 +8294,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.3.11",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "c9fb3e1560c6a33eca59c9a2fcb4d9925445a0a4"
+                "reference": "e3647094ed8f0f1f67393d812b793a5143e25af3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/c9fb3e1560c6a33eca59c9a2fcb4d9925445a0a4",
-                "reference": "c9fb3e1560c6a33eca59c9a2fcb4d9925445a0a4",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/e3647094ed8f0f1f67393d812b793a5143e25af3",
+                "reference": "e3647094ed8f0f1f67393d812b793a5143e25af3",
                 "shasum": ""
             },
             "require": {
@@ -8349,9 +8335,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.11"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.4.0"
             },
-            "time": "2026-10-28T10:46:50+00:00"
+            "time": "2026-10-28T20:28:58+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "colorlibhq/adminlte-laravel": "*",
+        "almasaeed2010/adminlte": "^4.10",
         "laravel/framework": "^13.17",
         "laravel/sanctum": "^4.3",
         "laravel/tinker": "^3.0"
@@ -44,8 +44,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan key:generate",
             "@php artisan migrate --force",
-            "npm install --ignore-scripts",
-            "npm run build"
+            "@php artisan storage:link --ansi"
         ],
         "dev": [
             "Composer\\Config::disableProcessTimeout",
